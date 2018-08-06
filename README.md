@@ -12,9 +12,6 @@ PASM is a simple, multi-purpose assembler and disassembler for Linux. It leverag
 - [Installation](#installation)
 - [Features](#features)
 - [Usage](#usage)
- - [Assembly and disassembly](#Assembly and disassembly)
- - [Command prompt](#Command prompt)
- - [Configuration file](#Configuration file)
 - [License](#license)
 
 
