@@ -51,23 +51,24 @@ disasm:[x86][32][linux][little][att]
 [+] Disassembly of '\x90\x90\xc3 ':
 0x00000000   1                       90  nop
 0x00000001   1                       90  nop
-0x00000002   1                       c3  retl```
+0x00000002   1                       c3  retl
+```
 
 
 #### Command prompt
 
 The prompt of PASM is divided into 5 differrent sections:
 
-```
-mode:[architecture][number_of_bits][os][endianess][assembly_syntax]
-->```
+
+>mode:[architecture][number_of_bits][os][endianess][assembly_syntax]
+->
 
 Each section presents us with current assembler option. Every option can be changed from the CLI:
 
-```
-asm:[x86][32][linux][little][att]
+
+>asm:[x86][32][linux][little][att]
 -> os linux
-[+] Changed OS to linux```
+[+] Changed OS to linux
 
 #### Configuration file
 To change default settings of PASM (used at startup), edit`config.ini`:
