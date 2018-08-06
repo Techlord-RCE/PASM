@@ -65,8 +65,7 @@ The prompt of PASM is divided into 5 differrent sections:
 Each section presents us with current assembler option. Every option can be changed from the CLI:
 
 
->asm:[x86][32][linux][little][att]
--> os linux<br/>[+] Changed OS to linux
+>asm:[x86][32][linux][little][att]<br/>-> os linux<br/>[+] Changed OS to linux
 
 #### Configuration file
 To change default settings of PASM (used at startup), edit`config.ini`:
