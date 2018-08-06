@@ -18,7 +18,7 @@ PASM is a simple, multi-purpose assembler and disassembler for Linux. It leverag
 - [License](#license)
 
 
-##Installation
+## Installation
 Go to the cloned repository and run `setup.py`:
 `$ python setup.py install`
 It will install all needed dependencies.
@@ -26,22 +26,22 @@ It will install all needed dependencies.
 Then launch PASM from your terminal:
 `$ python2.7 pasm.py`
 
-##Features
+## Features
 - Support for over 40 architectures
 - Easily configurable 
 - Clear minimalistic output
 - Power and versatility of Rasm2 wrapped into custom interface
 - Null-bytes and bad characters warning
 
-##Usage
-####Assembly and disassembly
+## Usage
+#### Assembly and disassembly
 In order to switch between assembly and disassembly modes, simply run `asm` or `disasm` command. Then enter the instructions or opcodes you want to assembly (or disassembly):
 
->asm:[x86][32][linux][little][att]
+```
+asm:[x86][32][linux][little][att]
 -➤ disasm
 [+] Changed mode to disasm
-
->disasm:[x86][32][linux][little][att]
+disasm:[x86][32][linux][little][att]
 -➤ 9090c3
 [+] Disassembly of '9090c3 ':
 0x00000000   1                       90  nop
@@ -49,15 +49,15 @@ In order to switch between assembly and disassembly modes, simply run `asm` or `
 0x00000002   1                       c3  retl
 
 
->disasm:[x86][32][linux][little][att]
+disasm:[x86][32][linux][little][att]
 -➤ \x90\x90\xc3
 [+] Disassembly of '\x90\x90\xc3 ':
 0x00000000   1                       90  nop
 0x00000001   1                       90  nop
-0x00000002   1                       c3  retl
+0x00000002   1                       c3  retl```
 
 
-####Command prompt
+#### Command prompt
 
 The prompt of PASM is divided into 5 differrent sections:
 
@@ -72,7 +72,7 @@ asm:[x86][32][linux][little][att]
 -> os linux
 [+] Changed OS to linux```
 
-####Configuration file
+#### Configuration file
 To change default settings of PASM (used at startup), edit`config.ini`:
 >[assembler]
 bits = 32
