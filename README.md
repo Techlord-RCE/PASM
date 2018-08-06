@@ -60,25 +60,17 @@ disasm:[x86][32][linux][little][att]
 The prompt of PASM is divided into 5 differrent sections:
 
 
->mode:[architecture][number_of_bits][os][endianess][assembly_syntax]
-->
+>mode:[architecture][number_of_bits][os][endianess][assembly_syntax]<br/>->
 
 Each section presents us with current assembler option. Every option can be changed from the CLI:
 
 
 >asm:[x86][32][linux][little][att]
--> os linux
-[+] Changed OS to linux
+-> os linux<br/>[+] Changed OS to linux
 
 #### Configuration file
 To change default settings of PASM (used at startup), edit`config.ini`:
->[assembler]
-bits = 32
-endian = little
-os = linux
-syntax = att
-arch = x86
-starting_mode = asm
+>[assembler]<br/>bits = 32<br/>endian = little<br/>os = linux<br/>syntax = att<br/>arch = x86<br/>starting_mode = asm
 
 
 
